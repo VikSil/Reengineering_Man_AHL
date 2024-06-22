@@ -5,6 +5,7 @@
 | Component | Source | Description | Logo| Notes |
 |--|--|--|--|--|
 | ||__ENVIRONMENT__| |
+| Bare Metal | 2. | Hardware | <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Server_tower_icon.jpg" title="Server"  alt="Server" width="55" height="55"/></p> |  |
 | Linux | 5. | OS | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/linux/linux-original.svg" title="Linux"  alt="Linux" width="55" height="55"/></p> |  |
 | OpenStack | 5. | Cloud IaaS. Basically, soft for provisioning bare metal into cloud resources | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/openstack/openstack-original.svg" title="openstack"  alt="openstack" width="55" height="55"/></p> |  |
 | Prometheus | 5. | Server monitoring soft | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/prometheus/prometheus-original.svg" title="prometheus"  alt="prometheus" width="55" height="55"/></p> | Mentioned in close association with Grafana in source 1. |
@@ -32,6 +33,7 @@
 | Python3 - TensorFlow | 5. | Machine learning library | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" title="tensorflow"  alt="tensorflow" width="55" height="55"/></p> |  |
 | Java | 5. | General purpose programming language | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original.svg" title="java"  alt="java" width="55" height="55"/></p> |  |
 | C/C++ | 1. | General purpose programming languages | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/cplusplus/cplusplus-original.svg" title="cplusplus"  alt="cplusplus" width="55" height="55"/></p> |  |
+| Bash |  | General purpose scripting languages | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/bash/bash-original.svg" title="bash"  alt="bash" width="55" height="55"/></p> | Unconfirmed, but Airfow uses bash to integrate with non-python scripts and source 4. mentions scirpting |
 | ||__CI/CD__|  |
 | Jenkins | 5. | Development pipeline automation soft | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/jenkins/jenkins-original.svg" title="jenkins"  alt="jenkins" width="55" height="55"/></p> |  |
 | Bitbucket | 5. | Repository | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/bitbucket/bitbucket-original.svg" title="bitbucket"  alt="bitbucket" width="55" height="55"/></p> |  |
@@ -40,7 +42,11 @@
 | ELKDocker | 1. |  |  | Is this deviantony/docker-elk ? |
 
 
+## Speculative Architecture Diagram
 
+<p align = "center">
+<img height= "280" src="https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/diagrams/architecture/Speculative_Architecture_latest.png" alt="Architecture Diagram"/>
+</p>
 
 
 ## Sources
