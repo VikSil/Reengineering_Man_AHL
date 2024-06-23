@@ -45,7 +45,7 @@
 ## Speculative Architecture Diagram
 
 <p align = "center">
-<img height= "480" src="https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/diagrams/architecture/Speculative_Architecture_latest.png" alt="Architecture Diagram"/>
+<img height= "680" src="https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/diagrams/architecture/Speculative_Architecture_latest.png" alt="Architecture Diagram"/>
 </p>
 
 
