@@ -20,7 +20,7 @@
 | ||__STORAGE__|  |
 | ArcticDB | 4. | Man's in-house open source data storage solution | <p align="center"><img src="https://github.com/man-group/ArcticDB/raw/master/static/ArcticDBCropped.png" title="arcticdb"  alt="arcticdb" width="55" height="55"/></p> | Mentioned in close association with MongoDB in source 1. |
 | MongoDB | 5. | File based DB | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/mongodb/mongodb-original.svg" title="mongodb"  alt="mongodb" width="55" height="55"/></p> | Mentioned in close association with ArcticDB in source 1. |
-| Oracle | 5. | SQL DB | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg" title="oracle"  alt="oracle" width="55" height="55"/></p> |  |
+| Oracle | 5. | Relational DB | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/oracle/oracle-original.svg" title="oracle"  alt="oracle" width="55" height="55"/></p> |  |
 | ||__MINING__|  |
 | Elasticsearch | | Indexing/search engine | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/elasticsearch/elasticsearch-original.svg" title="elasticsearch"  alt="elasticsearch" width="55" height="55"/></p> | Infering that Man uses this from ELKDocker, as it looks like a fitting solution to index datafiles in Mongo |
 | Spark | 1. | Analytics engine for large-scale data | <p align="center"><img src="https://github.com/devicons/devicon/blob/master/icons/apachespark/apachespark-original.svg" title="apachespark"  alt="apachespark" width="55" height="55"/></p> | Probably both Apache Spark and PySpark|
@@ -45,7 +45,7 @@
 ## Speculative Architecture Diagram
 
 <p align = "center">
-<img height= "280" src="https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/diagrams/architecture/Speculative_Architecture_latest.png" alt="Architecture Diagram"/>
+<img height= "480" src="https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/diagrams/architecture/Speculative_Architecture_latest.png" alt="Architecture Diagram"/>
 </p>
 
 
