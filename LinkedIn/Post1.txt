@@ -1,0 +1,15 @@
+Is this Man AHL's architecture?
+
+
+
+A few weeks ago I was contacted by a headhunter looking to hire a Python Engineer for the Man Group. You do know who Man Group are, right? If you happen not to - Man are the largest hedge fund in the world. Or possibly second largest, depends on what metric you use and when you take the measurement. But you get the idea...
+
+
+
+So, I spent a few days studying the tech stack that was listed in the job description. The JD was marked with the usual 'private and confidential' legalese, but here is a screenshot of a public ad with much of the same content: https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/sources/LinkedIn_Ad_19-06-2024%2020-39-27.png Nothing really came of the interview, but I did come up with an overall architecture diagram that looks plausible. I was originally trained as a system analyst, diagrams is just what we do. 🤓 
+
+
+
+It wasn't spelled out, but quite obvious that the position was for Man AHL, i.e. their systemic trading branch. As it turns out, AHL are largely open source with presence on GitHub. To be perfectly clear, it is a pure speculation on my part of how the stack fits together. I don't have any affiliation with Man and I don't know for sure what their architecture is. But I do know that Man AHL are the best of the best, and I would not mind learning from the best. What's good enough for them, surely will be good enough for me. 
+
+So, let's dig some more...
