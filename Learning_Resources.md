@@ -24,6 +24,8 @@
     * 💻 [learningPySpark](https://github.com/drabastomek/learningPySpark) by drabastomek
     * 📖 [Official Website](https://spark.apache.org/docs/latest/)
     * 📖 [Learning Spark](https://pages.databricks.com/rs/094-YMS-629/images/LearningSpark2.0.pdf) Book by several authors
+* __ArcticDB__
+    * 💻 [ArcticDB](https://github.com/man-group/ArcticDBk) by man-group
 * __Bash__
     * 🤷 [Learn the Command Line](https://www.codecademy.com/learn/learn-the-command-line) by Codecademy
     * 🤷 [Basics of Batch Scripting](https://www.udemy.com/course/basics-of-batch-scripting/) by Udemy
@@ -63,6 +65,7 @@
     * 🟢 [Introduction to Jenkins (LFS167)](https://training.linuxfoundation.org/training/introduction-to-jenkins-lfs167/) by The Linux Foundation
     * 🤷 [Jenkins Full Course](https://www.youtube.com/watch?v=FX322RVNGj4) by simplilearn   
     * 🤷 [JENKINS Beginner Tutorial - Step by Step](https://www.udemy.com/course/jenkins-beginner-tutorial-step-by-step/) by Udemy
+    * 💻 [view-job-filters-plugin](https://github.com/jenkinsci/view-job-filters-plugin) by jenkinsci
 * __Kafka__
     * 🤷 [Apache Kafka Tutorials | Kafka 101](https://www.youtube.com/playlist?list=PLa7VYi0yPIH0KbnJQcMv5N9iW8HkZHztH) by Confluent
     * 💻 [etl-data-pipelines-with-shell-airflow-kafka](https://github.com/pregismond/etl-data-pipelines-with-shell-airflow-kafka) by pregismond
@@ -100,6 +103,7 @@
     * 🟢 [Data Analysis with Python 2022-2023](https://courses.mooc.fi/org/uh-cs/courses/dap-22) by the University of Helsinki
     * 🟢🤷 [Python Pandas Basics Course](https://www.simplilearn.com/free-python-panda-basics-course-skillup) by simplilearn 
     * 🟢🤷 [Pandas](https://www.kaggle.com/learn/pandas) by kaggle
+    * 💻 [dtale](https://github.com/man-group/dtale) by man-group
     * 💻 [pandas-cookbook](https://github.com/jvns/pandas-cookbook) by jvns
     * 💻 [pandas-workshop](https://github.com/stefmolin/pandas-workshop) by stefmolin
 * __Prometheus__
@@ -108,6 +112,7 @@
     * 🤷 [CNCF Live Webinar: Intro to open source observability with Grafana, Prometheus, Loki, and Tempo](https://www.youtube.com/watch?v=y5_pyqSxe5w) by CNCF
     * 🤷 [Prometheus Introduction](https://www.youtube.com/watch?v=PzFUwBflXYc) by CNCF, presented by Julius Volz
     * 🤷 [Kubernetes Monitoring Made Easy with Prometheus](https://www.youtube.com/watch?v=6xmWr7p5TE0) by KodeKloud
+    * 💻 [prometheus-openstack-exporter](https://github.com/canonical/prometheus-openstack-exporter) by canonical
 * __PySpark__
     * 🤷 [Introduction to Big Data with PySpark](https://www.codecademy.com/learn/big-data-pyspark) by codeacademy
     * 🤷 [Introduction to PySpark](https://app.datacamp.com/learn/courses/introduction-to-pyspark) by DataCamp
