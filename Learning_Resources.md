@@ -78,8 +78,8 @@
     * 🟢🤷 [Introduction to Serverless on Kubernetes (LFS157)](https://training.linuxfoundation.org/training/introduction-to-serverless-on-kubernetes-lfs157/) by The Linux Foundation
     * 🤷 [Crash course in Kubernetes monitoring](https://www.youtube.com/watch?v=dId543PzSsU) by Devoxx, presented by Robert Munteanu
 * __Linux__
-    * 🟢 [NDG Linux Essentials](https://www.netacad.com/courses/os-it/ndg-linux-essentials) by Cisco
     * 🟢 [Introduction to Linux (LFS101)](https://training.linuxfoundation.org/training/introduction-to-linux/) by The Linux Foundation
+    * [NDG Linux Essentials](https://www.netacad.com/courses/os-it/ndg-linux-essentials) by Cisco
     * [Linux Upskill Challenge](https://linuxupskillchallenge.org/) by livialima
     * [Linux Tools for Software Development (LFD108x)](https://training.linuxfoundation.org/training/linux-tools-for-software-development-lfd108x/) by The Linux Foundation
     * [Open Source Software Development: Linux for Developers (LFD107x)](https://training.linuxfoundation.org/training/open-source-software-development-linux-for-developers-lfd107x/) by The Linux Foundation
