@@ -92,11 +92,4 @@ _the above should output a version mentioning `Corretto`. If it does not refer t
 
 * If tunning Kafka with KRaft, , `Ctr+C` the terminal running KRaft.
 
-# Configuration
 
-Check these two files in Kafka's `config` directory:
-
-* /config/zookeeper.properties
-* config/server.properties
-
-Both stash data and logs into root `/tmp` folder by default.
