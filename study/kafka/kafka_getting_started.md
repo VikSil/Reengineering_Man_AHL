@@ -69,6 +69,7 @@ _the above should output a version mentioning `Corretto`. If it does not refer t
 
 1. Generate Kafka storage ID by running this command:
 
+        # WARNING: In an existing Kafka server, this will delete all your topics and Kafka storage
         kafka-storage.sh random-uuid
 
     _this will output a hash string_
@@ -92,4 +93,6 @@ _the above should output a version mentioning `Corretto`. If it does not refer t
 
 * If tunning Kafka with KRaft, , `Ctr+C` the terminal running KRaft.
 
+* By running the command:
 
+        kafka-server-stop.sh
