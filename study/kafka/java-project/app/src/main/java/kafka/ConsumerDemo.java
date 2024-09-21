@@ -7,6 +7,7 @@ import java.util.Properties;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
+import org.apache.kafka.clients.consumer.CooperativeStickyAssignor;
 import org.apache.kafka.common.errors.WakeupException;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.slf4j.Logger;
@@ -33,6 +34,9 @@ public class ConsumerDemo {
         properties.setProperty("value.deserializer", StringDeserializer.class.getName());
 
         properties.setProperty("group.id", groupId);
+
+        // set assignor to use iterrative rebalancing
+        properties.setProperty("partition.assignment.strategy", CooperativeStickyAssignor.class.getName());
 
         // this property has three possible values:
         // none - if there is no consumer group, then program will fail

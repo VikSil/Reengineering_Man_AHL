@@ -92,7 +92,7 @@ _Will consume all the messages already in the topic and listen onwards. Will rea
 
     kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic third_topic --group my-first-application
 
-_If group does not exist, it will be auto-created. Creating another consumer in the same group will cause the new consumer to take some of the partitions for itself. A partition-to-consumer assignment rebalancing hapens whenever a consumer is added or removed from a group. If all consumers are removed (stopped), they will read the missed mesages once started back again (even if started without `--from beginning` argument)._
+_If group does not exist, it will be auto-created. Creating another consumer in the same group will cause the new consumer to take some of the partitions for itself. A partition-to-consumer assignment rebalancing hapens whenever a consumer is added or removed from a group, or partitions are added to a topic. If all consumers are removed (stopped), they will read the missed mesages once started back again (even if started without `--from beginning` argument)._
 
 _It is possible to have several groups consuming from the same topic._
 
@@ -106,6 +106,11 @@ _It is possible to have several groups consuming from the same topic._
 
 _Shows the topic, all the consumers, partitions that they are assigned to, partition offsets, lag and hosts_
 
+## Static group membership
+* Prevents consumers from changing their member ID and partitions on rebalancing
+* Specify `group.instance.id` to make a consumer a _static member_
+* Cosumer's partitions will wait for `session.timeout.ms` before rebalancing if the consumer leaves the session
+
 # Offsets
 
 ## Resetting offsets
@@ -116,3 +121,26 @@ _Shows the topic, all the consumers, partitions that they are assigned to, parti
 _Will reset the offsets of each partition to the beginning._
 
 
+# Rebalancing
+
+**N.B. Consumers with [static group membership](https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/study/kafka/kafka_useful_commands.md#static-group-membership) do not rebalance (for a timeout)**
+
+## Eager rebalancing
+
+* _"Stop-the-world"_ event happens: all of the consumers are stopped and give up their partitions
+* Partitions are assigned at random to the consumer
+* **Cons**:
+    * Consumer may end up assigned to a different set of partitions than before
+    * There is a short period of time when noone is processing
+* Kafka Consumer `partition.assignment.strategy`:
+    * `RangeAssignor`: assigns partition on a per-topic basis (**Default**, but can lead to imbalance)
+    * `RoundRobin`: balanced because all consumers get the same number of partitions (+/-1)
+    * `StickyAssignor`: like RoundRobbin, and also minimises partition movements on rebalancing (but _"stop-the-world"_ event still happens)
+
+## Incremental cooperative rebalance
+
+* A small subset of partitions are reassigned from one consumer to the other (new) consumer
+* Consumers that don't have any changes continue to process uninterrupted
+* This can happen in several interations to find a stable assignment (hence "incremental")
+* Kafka Consumer `partition.assignment.strategy`:
+    * `CooperativeStickyAssignor`: sticky assignor without _"stop-the-world"_ event
