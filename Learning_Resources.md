@@ -135,7 +135,6 @@
     * [Machine Learning Crash Course with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course) by Google
     * 🤷 [TensorFlow fundamentals](https://learn.microsoft.com/en-us/training/paths/tensorflow-fundamentals/) by Microsoft
     * 🟢🤷[TensorFlow for Beginners](https://www.simplilearn.com/learn-tensorflow-basics-free-course-skillup) by simplilearn
-    * 🟢🤷[Keras & TensorFlow for Deep Learning](https://www.scaler.com/topics/course/keras-tensorflow-for-deep-learning/) by saylor academy
     * 🤷 [Python TensorFlow for Machine Learning – Neural Network Text Classification Tutorial](https://www.youtube.com/watch?v=VtRLrQ3Ev-U) by freeCodeCamp
     * 🟢🤷 [Machine Learning with Python](https://www.freecodecamp.org/learn/machine-learning-with-python/) by freecodecamp (outdated course)
 <br>
