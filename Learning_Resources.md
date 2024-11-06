@@ -3,6 +3,7 @@
 🟢 Free certificate/Badge&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⏱️ More than 100 hours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🤷 Less than 10 hours&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;📖 Docs&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;💻 GitHub
 
 * __Airflow__
+    * 💻 [List of Airflow resources](https://github.com/jghoman/awesome-apache-airflow) by jghoman
     * 🤷 [Apache Airflow Tutorial for Beginners](https://www.youtube.com/playlist?list=PLwFJcsJ61oujAqYpMp1kdUBcPG0sE0QMT) by coder2j
     * 🤷 [Airflow 101](https://academy.astronomer.io/path/airflow-101) by academy.astronomer.io
     * 🤷 [Airflow - zero to hero](https://www.youtube.com/playlist?list=PLcoE64orFoVsyzbvfgiY5iNKo30fJ4IWm) by RocketMan
