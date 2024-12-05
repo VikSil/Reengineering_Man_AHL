@@ -78,6 +78,7 @@
     * 🟢🤷 [Introduction to Kubernetes (LFS158)](https://training.linuxfoundation.org/training/introduction-to-kubernetes/) by The Linux Foundation
     * 🟢🤷 [Introduction to Serverless on Kubernetes (LFS157)](https://training.linuxfoundation.org/training/introduction-to-serverless-on-kubernetes-lfs157/) by The Linux Foundation
     * 🤷 [Crash course in Kubernetes monitoring](https://www.youtube.com/watch?v=dId543PzSsU) by Devoxx, presented by Robert Munteanu
+    * 💻 [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by kelseyhightower
 * __Linux__
     * 🟢 [Introduction to Linux (LFS101)](https://training.linuxfoundation.org/training/introduction-to-linux/) by The Linux Foundation
     * [NDG Linux Essentials](https://www.netacad.com/courses/os-it/ndg-linux-essentials) by Cisco
