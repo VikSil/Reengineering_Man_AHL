@@ -2,7 +2,7 @@
 
 ## Background
 
-In July 2024 I was contacted by a headhunter looking to hire a Python Engineer for the Man Group. In order to prepare for an interview I spent a few days studying the tech stack that was listed in the [job description](https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/sources/LinkedIn_Ad_15-06-2024%2014-09-47.png) \[3\]. Nothing really came of the interview, but I did come up with a possible overall architecture diagram (see below) and found out that [Man AHL](https://github.com/man-group) are largely open source. This repo is a place to put *stuff* as I learn more about their tech stack.
+In June 2024 I was contacted by a headhunter looking to hire a Python Engineer for the Man Group. In order to prepare for an interview I spent a few days studying the tech stack that was listed in the [job description](https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/sources/LinkedIn_Ad_15-06-2024%2014-09-47.png) \[3\]. Nothing really came of the interview, but I did come up with a possible overall architecture diagram (see below) and found out that [Man AHL](https://github.com/man-group) are largely open source. This repo is a place to put *stuff* as I learn more about their tech stack.
 
 ## Architecture Components
 
