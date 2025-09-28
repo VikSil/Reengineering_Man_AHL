@@ -55,6 +55,12 @@ The folowing technologies have been mentioned in connection to Man Group in vari
 </p>
 
 
+## Architecture Adapted for Metatrader5
+
+<p align = "center">
+<img height= "680" src="https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/diagrams/architecture/Architecture_MT5_latest.jpg" alt="Architecture with Metatrader 5"/>
+</p>
+
 ## Learning Resources
 
 In order to get a better grasp on the technologies listed above, I have compiled a list of learning resources, available [here](https://github.com/VikSil/Reengineering_Man_AHL/blob/trunk/Learning_Resources.md).
